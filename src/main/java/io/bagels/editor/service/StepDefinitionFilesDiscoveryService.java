@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
+import java.nio.file.FileSystem;
 import java.nio.file.Path;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -17,7 +18,7 @@ import java.util.stream.Collectors;
 @Service
 public class StepDefinitionFilesDiscoveryService implements FileDiscoveryService {
 
-    @Value("${getStepDefinitionFiles.root.folder}")
+    @Value("${files.root.folder}")
     private String rootFolder;
 
     private final StepDefinition stepDefinition;

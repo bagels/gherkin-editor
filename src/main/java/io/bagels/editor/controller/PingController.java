@@ -1,13 +1,13 @@
-package io.bagelz.editor.controller;
+package io.bagels.editor.controller;
 
-import io.bagelz.editor.model.Pong;
+import io.bagels.editor.model.Pong;
 import org.joda.time.DateTime;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
 /**
- * Created by green3 on 23/3/17.
+ * Created by green on 23/3/17.
  */
 @RestController
 public class PingController {

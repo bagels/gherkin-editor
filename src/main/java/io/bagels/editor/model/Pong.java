@@ -1,8 +1,8 @@
-package io.bagelz.editor.model;
+package io.bagels.editor.model;
 
 
 /**
- * Created by green3 on 23/3/17.
+ * Created by green on 23/3/17.
  */
 public class Pong {
 

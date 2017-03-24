@@ -1,7 +1,7 @@
-package io.bagelz.editor;
+package io.bagels.editor;
 
 /**
- * Created by green3 on 23/3/17.
+ * Created by green on 23/3/17.
  */
 
 import org.springframework.boot.SpringApplication;
